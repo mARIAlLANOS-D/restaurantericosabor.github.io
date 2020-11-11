@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+} 
+#container{
+	width: 1144px;
+	height: 1606px;
+	background-color: #B3AEA8;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header{
+    width: 1144px;
+    height: 8px;
+    background-color: #F49819;
+}
+#nav{
+    width: 1144px;
+    height: 120px;
+    background-color: #F8FCFC;
+}
+#logo{
+    margin-top: -67px;
+    margin-left: 35px;
+}
+#nav ul{
+    list-style-type: none;
+}
+#nav ul li{
+    display: inline-block;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 48px;
+    margin-left: 370px;
+    margin-right: -365px;
+}
+#nav ul li a{
+    text-decoration: none;
+    background-color: #F49819;
+    color: #FFFFFF;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 18px;
+    padding-top: 65px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 37px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+#nav ul li a:hover{
+ 	background-color: #9D4D1D;
+    color: #FFFFFF;
+}
+#article{
+	float: left;
+    width: 1144px;
+    height: 1215px;
+    background-color: #FFFFFF;
+    margin-top: 5px;
+}
+#h1{
+    color: #000000;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 17px;
+    margin-top: 8px;
+}
+#saludo{
+    color: #000000;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    margin-left: 117px;
+    margin-right: 117px;
+    margin-top: 1px;
+    font-size: 12pt;
+}
+#entradas{
+    width: 350px;
+    height: 523px;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 47px;
+    margin-right: -43px;
+}
+#img-entradas{
+    width: 350px;
+    height: 293px;
+    background-image: url(../img/thumb_entradas.jpg);
+}
+#titulo-entradas{
+    background-color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 17pt;
+    margin-top: 10px;
+}
+#comentario{
+    text-align: center;
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-left: 37px;
+    margin-right: 37px;
+}
+#criollas{
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 523px;
+    margin-top: -524px;
+    margin-left: 396px;
+}
+#img-criollas{
+    background-image: url(../img/thumb_criollos.jpg);
+    width: 350px;
+    height: 293px;
+}
+#titulo-criollas{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 10px;
+}
+#pastas{
+    width: 350px;
+    height: 523px;
+    background-color: #FFFFFF;
+    padding-left: 0px;
+    margin-left: 772px;
+    margin-top: -524px;
+}
+#img-pastas{
+    width: 350px;
+    height: 293px;
+    background-image: url(../img/thumb_pastas.jpg);  
+}
+#titulo-pastas{
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 17pt;
+    text-align: center;
+    margin-top: 10px;
+}
+}
+#footer{
+	float: left
+    width: 1144px;
+    height: 0px;
+    background-color: #F49819;
+} 
